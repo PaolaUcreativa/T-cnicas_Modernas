@@ -24,4 +24,4 @@ describe('My Dropdown App', () => {
         await DropdownPage.setDropdownValuebyIndex(1);
         await expect(DropdownPage.currentSelected()).toHaveTextContaining('Option 1');
     });
-}); 
+});

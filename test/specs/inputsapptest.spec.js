@@ -28,6 +28,6 @@ describe('My Inputs App', () => {
     it('Set number', async () => {
         console.log('third test');
         await InputsPage.setValueInput();
-         expect(InputsPage.currentInput()).toHaveTextContaining(10);
+         expect(InputsPage.currentInput()).toHaveTextContaining(70);
     });
 }); 

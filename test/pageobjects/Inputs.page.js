@@ -17,7 +17,7 @@ class InputsPage extends Page{
     }
 
     setValueInput(){
-        return this.getInput.setValue(10);
+        return this.getInput.setValue(11);
     }
 
     currentInput(){
